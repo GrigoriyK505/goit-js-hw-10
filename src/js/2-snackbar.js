@@ -1,4 +1,6 @@
-import izitoast from "izitoast";
+// Описаний у документації
+import izitoast from 'izitoast';
+// Додатковий імпорт стилів
 import "izitoast/dist/css/iziToast.min.css";
 
 const form = document.querySelector(".form");
