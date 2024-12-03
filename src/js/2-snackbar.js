@@ -1,10 +1,10 @@
-import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+import izitoast from "izitoast";
+import "izitoast/dist/css/izitoast.min.css";
 
 const form = document.querySelector(".form");
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    const delay = Number(form.elements.state.value);
+    const delay = Number(form.elements.delay.value);
     const state = form.elements.state.value;
 
     createPromise(delay, state)
