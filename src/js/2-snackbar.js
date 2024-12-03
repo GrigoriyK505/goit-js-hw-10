@@ -1,5 +1,5 @@
 import izitoast from "izitoast";
-import "izitoast/dist/css/izitoast.min.css";
+import "izitoast/dist/css/iziToast.min.css";
 
 const form = document.querySelector(".form");
 form.addEventListener('submit', (event) => {
