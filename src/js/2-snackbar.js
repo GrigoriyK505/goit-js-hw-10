@@ -1,7 +1,7 @@
 // Описаний у документації
 import izitoast from 'izitoast';
 // Додатковий імпорт стилів
-import "izitoast/dist/css/iziToast.min.css";
+import "izitoast/dist/css/izitoast.min.css";
 
 const form = document.querySelector(".form");
 form.addEventListener('submit', (event) => {
